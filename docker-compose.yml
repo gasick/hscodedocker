@@ -14,14 +14,3 @@ services:
       - /dev/net/tun:/dev/net/tun
     ports:
       - 6000:8080
-    networks:
-       testcode:
-
-
-
-
-networks:
-  testcode:
-    ipam:
-        config:
-            - subnet: 10.8.1.0/16
